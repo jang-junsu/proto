@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package jc.model;
+
+message Param {
+  string job
+  string branch
+  string author
+}
